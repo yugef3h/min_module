@@ -1,0 +1,47 @@
+/* pages/my/my.wxss */
+
+.user {
+  background-color: #fff;
+  padding: 15pt 0;
+}
+
+.user_bd {
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 10pt;
+}
+
+.user_hd {
+  text-align: center;
+}
+
+.user_ft {
+  text-align: center;
+  font-size: 12pt;
+  color: #999;
+}
+
+.icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.avatar {
+  width: 60pt;
+  height: 60pt;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+}
+
+
+.weui-cells {
+  overflow: hidden;
+}
+
+.user {
+  border-bottom: 1rpx solid #e5e5e5;
+}

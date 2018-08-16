@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/buffet/buffet",
+    "pages/menu/menu",
+    "pages/user/user",
+    "pages/user/addr/addr",
+    "pages/user/order/order"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "点餐小程序",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#efeff4"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/buffet/buffet",
+        "iconPath": "image/icon_index.png",
+        "selectedIconPath": "image/icon_index_HL.png",
+        "text": "自助餐"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "iconPath": "image/icon_message.png",
+        "selectedIconPath": "image/icon_message_HL.png",
+        "text": "点餐"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "image/icon_user.png",
+        "selectedIconPath": "image/icon_user_HL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}
